@@ -1,0 +1,63 @@
+.container1 {
+	margin-top: 10px;
+	width: auto;
+	height: 400px;
+	background-image: url("Фон3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container2 {
+	margin-top: 10px;
+	width: auto;
+	height: 400px;
+	background-image: url("Фон1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.col {
+	width: 150px;
+	height: 150px;
+	margin: 30px;
+}
+
+.col-1 {
+	width: 350px;
+	height: 200px;
+}
+
+.col-2 {
+	width: 200px;
+	height: 200px;
+}
+
+.logo {
+	margin: 20px;
+	font-size: 50px;
+	float: left;
+	color: #ffffff;
+}
+
+nav {
+	float: right;
+}
+
+
+nav li {
+	margin-right: 50px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+body {
+	background: #c7e9f7;
+}
+
+a {
+	color: #ffffff
+}
